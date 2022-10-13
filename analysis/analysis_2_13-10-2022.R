@@ -7,6 +7,20 @@ theme_set(theme_julio())
 # data ------#
 read_rds(here("data", "workfile", "workfile.rds")) -> workfile_data
 #----------#
+# LITTLE NOTE: This is a simple machine learning model (decision tree).
+# I don't want to go too much in deep so I just use this model as a
+# exploratory tool and as a first model to come up with evidence
+# about predictors. The process of prediction naturally doesn't match
+# up with my analysis. 
+# To come up with a good model we could have followed the following steps:
+# (1) Split the data
+# (2) Feature enginerring
+# (3) Tune a model
+# (4) Evaluate the model on unseen data.
+# I didn't follow that process as explained above.
+
+
+#---------------------------------#
 decision_tree(tree_depth = 3) |> 
   set_engine("rpart") |> 
   set_mode("regression") -> tree_spec
