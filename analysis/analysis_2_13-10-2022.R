@@ -80,6 +80,12 @@ model_parts(model_explained) -> mod_var_imp
 plot(mod_var_imp)  # Confirmed.
 
 
+# Question and solution:
+## ASK: What are important factors to consider when it comes to 
+## predicting test scores in a given school so?
 
-
-
+## SOLUTION: One important factor to consider are the economic conditions
+## of the household. Transfer programs that aim to help the economic
+## conditions of the household or voucher schemes could faciliate the
+## problem to parent by allowing parents increase their budget. We can also
+## tackle the services available to student's houses. 
