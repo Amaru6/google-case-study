@@ -81,8 +81,14 @@ plot(mod_var_imp)  # Confirmed.
 
 
 # Question and solution:
+## PROBLEM: A governmental or a non-profit organization wants to
+## tackle the problem of low test scores among schools, particularly in
+## public schools. They want to tackle the problem but don't have an
+## infinite budget so they must focus on the most important factors to
+## consider. So they ask:
+
 ## ASK: What are important factors to consider when it comes to 
-## predicting test scores in a given school so?
+## predicting test scores in a given school?
 
 ## SOLUTION: One important factor to consider are the economic conditions
 ## of the household. Transfer programs that aim to help the economic
