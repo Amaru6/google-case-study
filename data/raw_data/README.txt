@@ -21,7 +21,7 @@ the house in which the student lives; (3) basic services available in the house;
 2. Validity: We are getting closer to the intended variable (a latent
 variable which measure economic factors) per each student by capturing
 all information in those 4 variables. In addition to that, as we aggregate
-the results per student to per district information is lost, so that is one
+the results from per student to per district information is lost, so that is one
 of the assumptions of the present study.
 
 
