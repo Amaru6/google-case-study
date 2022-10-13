@@ -1,4 +1,5 @@
-/* ECE_2S_2019_WEB.sav */
+/* raw data explanation */
+/** ECE_2S_2019_WEB.sav **/
 
 * Broad concepts ---#
 
@@ -25,7 +26,29 @@ the results per student to per district information is lost, so that is one
 of the assumptions of the present study.
 
 
+/* Summary of produced tables */
 
+(1)  01_ece_2019_indicator_eco.rds 
+* rows = 1781, cols = 4.
+* key = the column which identifies each row, it consists of the district of Peru which
+in this case amounts to 1781. 
+* Data cleaning:
+** I aggregated the results from per student to per district using a simple average. My
+intention is to use this proxy variable as a column which hopefully will make
+possible to measure economic factors per district.
 
+(2) 02_resultados_ece.rds 
+* rows = 14520 , cols = 5
+* Each row of this table contains information about schools, so it is in a different
+level of aggregation to that of 01_ece_2019_indicator_eco.rds. It contains the test 
+score achieved by each school.
 
+(3) workfile.rds
 
+* rows = 11166, cols = 8
+* When merging the two tables(02_resultados_ece.rds AND 01_ece_2019_indicator_eco.rds) I
+used an inner join so that I can get the rows which have a match in both tables.
+* Each row of this table contains information about school and the associated
+economic factors per district, namely all schools who belongs to a district
+share the same economic indicator.
+ 
