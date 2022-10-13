@@ -39,6 +39,8 @@ ece_2019_status |>
 ece_2019_indicator_eco
 
 
+
+
 # write_rds(ece_2019_indicator_eco, here("data", "raw_data", 
 #                                        "ece_2019_indicator_eco.rds"))
 
@@ -56,4 +58,5 @@ resultados_ece |>
          ) -> resultados_ece
 
 # write_rds(resultados_ece, here("data","raw_data","resultados_ece.rds"))
+
 
